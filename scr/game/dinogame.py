@@ -1,3 +1,5 @@
+from py_compile import main
+
 import pygame
 import random
 
@@ -99,3 +101,6 @@ while running:
     pygame.display.flip()
 
 pygame.quit()
+if __name__ == "__main__":
+    main()
+   
